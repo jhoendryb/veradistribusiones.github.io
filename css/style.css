@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:cursive;
+    box-sizing:border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+
+.formulario{
+    padding: 0% 0% 0% 0%;
+    display: flex;
+    flex-flow: column;    
+} 
+
+.link{
+    display: flex;
+    flex-flow: column;
+    margin: 6% 0% 0% 8%
+}
+
+.usuario{
+    margin: 0% 50% 0% 8%;
+}
+.contra{
+    margin: 0% 50% 0% 8%;
+}
+
+.contenedor{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.organizar {
+    width: 100%;
+    height: 100%;
+    background: black;
+    display: flex;
+    flex-flow: column;
+}
+
+#banner {
+    flex: 1;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#content {
+    flex: 4;
+    padding: 1% 0% 0% 0%;
+}
+.footer{
+    flex: 0.1;
+    text-align: center;
+    background: yellow;
+}
+
+#carrusel {
+    width: 70%;
+    height: 40%;
+    border: solid yellow;
+    float: left;
+    margin: 0% 0% 0% 1%;
+}
+
+#sesion {
+    background: yellow;
+    height: 35%;
+    width: 25%;
+    float: right;
+    margin: 1.5% 2% 0% 0%;
+    border: solid;
+    overflow: hidden;
+}
+
+#mv {
+    width: 98%;
+    height: 30%;
+    float: left;
+    margin: 0% 1% 0% 1%;
+    padding: 0.6% 0% 0% 0%;
+    display: flex;
+}
+
+#mision{
+    background:yellow;
+    text-align: center;
+    flex: 1;
+    max-height: 98%;
+    border-right: solid;
+    overflow:auto;
+}
+#vision{
+    background:yellow;
+    text-align: center;
+    flex: 1;
+    max-height: 98%;
+    overflow:auto;
+}
+
+@media only screen and (max-width:1250px) 
+{
+    .contenedor{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:680px) 
+{
+    #sesion{
+        display: none;
+    }
+    
+    #carrusel{
+        width: 98%;
+    }
+}
