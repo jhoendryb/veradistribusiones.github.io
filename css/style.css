@@ -101,6 +101,7 @@ body,html{
     border: solid;
     overflow: hidden;
     display: none;
+    overflow: auto;
 }
 
 #algo {
