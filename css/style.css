@@ -94,7 +94,7 @@ body,html{
 
 #sesion2{
     background: yellow;
-    height: 32%;
+    height: 32.8%;
     width: 30%;
     float: right;
     margin: 0.4% 0.6% 0% 0%;
@@ -107,7 +107,7 @@ body,html{
     width: 98%;
     height: 30%;
     float: left;
-    margin: 0% 1% 0% 1%;
+    margin: 0% 1% 0% %;
     padding: 0.6% 0% 0% 0%;
     display: flex;
 }
@@ -258,6 +258,7 @@ body,html{
     #sesion2{
         font-size: 10px;
         display: block;
+        margin: 0% 0.6% 0% 0%;
     }
     
     #carrusel{
