@@ -8,6 +8,14 @@ $(document).ready(function(){
              .next('div').fadeIn(1000)
              .end().appendTo('#slider');}, 4000);
     });
+    
+    $(function(){
+        $('#slider2 div:gt(0)').hide();
+        setInterval(function(){
+          $('#slider2 div:first-child').fadeOut(0)
+             .next('div').fadeIn(1000)
+             .end().appendTo('#slider2');}, 4000);
+    });
 
       
     /*$("#mostrarf").hover(function(){

@@ -56,8 +56,8 @@ body,html{
 }
 
 #content {
-    flex: 4;
-    padding: 1% 0% 0% 0%;
+    flex: 4.5;
+    padding: 0.4% 0% 0% 0%;
 }
 .footer{
     flex: 0.1;
@@ -73,20 +73,39 @@ body,html{
     margin: 0% 0% 0% 1%;
 }
 
+#carrusel2{
+    width: 90%;
+    height: 30%;
+    border: solid yellow;
+    float: left;
+    margin: 0.4% 0% 0% 5%;
+   
+}
+
 #sesion {
     background: yellow;
     height: 35%;
     width: 25%;
     float: right;
-    margin: 1.5% 2% 0% 0%;
+    margin: 1% 2% 0% 0%;
     border: solid;
     overflow: hidden;
+}
+
+#sesion2{
+    background: yellow;
+    height: 30%;
+    width: 25%;
+    float: right;
+    margin: 0% 2% 0% 0%;
+    border: solid;
+    overflow: hidden;
+    display: none;
 }
 
 #algo {
     width: 98%;
     height: 30%;
-    background: red;
     float: left;
     margin: 0% 1% 0% 1%;
     padding: 0.6% 0% 0% 0%;
@@ -105,7 +124,7 @@ body,html{
     background:yellow;
     text-align: center;
     flex: 1;
-    max-height: 98%;
+    max-height: 96%;
     border-right: solid;
     overflow:auto;
 }
@@ -113,7 +132,7 @@ body,html{
     background:yellow;
     text-align: center;
     flex: 1;
-    max-height: 98%;
+    max-height: 96%;
     overflow:auto;
 }
 
@@ -167,6 +186,54 @@ body,html{
 
 /* Fin Carrusl*/
 
+/*Carrusel*/
+
+#slider2 { 
+    position: relative;
+    overflow: hidden;
+    width: 100%; 
+    height: 100%; 
+    max-height: auto;
+    max-width: auto;
+    
+    
+}
+
+#slider2 > div {
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+#slider2 img {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0; 
+    border:0;
+}
+
+#slider2 p {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    display: block;
+    width: 25%;
+    height: 12%;
+    max-width: 25%;
+    margin:0;
+    padding: 5px 0;
+    color: black;
+    background: yellow;
+    font-size: 22px;
+    line-height:22px;
+    text-align:center;
+}
+
+
+
+/* Fin Carrusl*/
 
 @media only screen and (max-width:1250px) 
 {
@@ -178,6 +245,19 @@ body,html{
 {
     #sesion{
         display: none;
+    }
+    
+    #carrusel2{
+        width: 70%;
+        height: 30%;
+        border: solid yellow;
+        float: left;
+        margin: 0.4% 0% 0% 1%;
+    }
+    
+    #sesion2{
+        font-size: 10px;
+        display: block;
     }
     
     #carrusel{
