@@ -18,7 +18,7 @@ $(document).ready(function(){
     });
 
       
-    /*$("#mostrarf").hover(function(){
+    $("#mostrarf").hover(function(){
             $("#facebook").show();
         }, function(){
             $("#facebook").hide();
@@ -52,7 +52,7 @@ $(document).ready(function(){
             $("#twitter").show();
         }, function(){
             $("#twitter").hide();
-    });*/
+    });
     
     
 });
