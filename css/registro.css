@@ -17,32 +17,21 @@ body,html{
     background-image: url(../img/fondo.jpg);
     background-repeat:no-repeat;
     background-size: 100% 100%;
+    display: flex;
+    flex-flow: column;
+    overflow: auto;
 }
 
-.content{
-    height: 100%;
-    width: 100%;
-    background: rgba(196, 0, 255, 0.28);
+#caja1{
     display: flex;
-    padding: 10%;
-    flex-flow: column;
+    flex-flow:wrap;
 }
 
-.sesion{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-    border-bottom: solid;
-    border-right: solid;
-}
 .redes{
     width: 100%;
     height: 6%;
     margin: 2% 0% 0% 0%;
 }
-
 
 .redes img{
     
@@ -51,31 +40,52 @@ body,html{
     margin: 0% 4% 0% 0%;
 }
 
-#br{
+#paso{
+    margin: 15% 0% 0% 50%;
+    width: 80%;
+    height: 40%;
+    float: right;
+    color: white;
+}
+
+#paso ul{
+    list-style: none;
+}
+
+#pasop{
+    margin: 12% 0% 0% 0%;
+    width: 80%;
+    height: 40%;
+    color: white;
     display: none;
 }
 
+#pasop ul{
+    list-style: none;
+}
 
-@media only screen and (max-width:1250px) 
+@media only screen and (max-width:1024px) 
 {
-    .content{
-        height: 90%;
-    }
+    
     
    
    
 }
 @media only screen and (max-width:730px) 
 {
-    .contenedor{
-        display: flex;
-        justify-content: center;
-        flex-flow: column;
+    
+}
+@media only screen and (max-width:380px) 
+{
+    #caja1, #caja2 , #caja3 , #caja4 ,#caja5{
+        color: white;
     }
-    #br{
+    
+    #paso{
+        display: none;
+    }
+    
+    #pasop{
         display: block;
-    }
-    .content{
-        height: 70%;
     }
 }

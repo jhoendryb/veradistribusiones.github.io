@@ -2,7 +2,7 @@
 <html lang="es-VE">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/registro.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <title>Registro Distribuciones C.A</title>
@@ -20,47 +20,89 @@
            
             <form action="" method="POST">
                 
-                <br>
-                <label>Usuario:</label>
-                <input type="text" name="usuario" required>
-                <br><br>
-                <label>clave:</label>
-                <br id="br">
-                <input type="clave" name="clave" required>
-                <br><br>
-                <label>Confirmacion:</label>
-                <input type="clave" name="confirmacion" required>
-                <br><br>
-                <select name="preguntas" required>
+                <div id="caja1"><label><b>Usuario:</b></label>
+                <input type="text" name="usuario" required></div>
+                
+                <div id="caja2"><label><b>Contraseña:</b></label>
+                <input type="password" name="clave" required></div>
+                
+                <div id="caja3"><label><b>Confirmacion:</b></label>
+                <input type="clave" name="confirmacion" required></div>
+                
+                <div id="caja4"><select name="preguntas" required>
                  
-                  <option value="" selected disabled>Pregutas de Seguridad</option>
+                  <option value="" selected disabled><b>Pregutas de Seguridad</b></option>
                   <option value="¿Cual es tu mascota preferida?">¿Cual es tu mascota preferida?</option>
                   <option value="¿Cual es el nombre de mi mama?">¿Cual es el nombre de mi mama?</option>
                   <option value="¿Cual es mi color favorito?">¿Cual es mi color favorito?</option>
                   
-                </select>
-                <br><br>
-                <label>Respueta:</label>
-                <input type="text" name="respuesta" required>
-                <br><br>
+                </select></div>
+                
+                <div id="caja5"><label><b>Respueta:</b></label>
+                <input type="text" name="respuesta" required></div>
+                
                 <input type="submit" value="Registrar">
             </form>             
         </div>
     </section>
        
-       <footer class="redes">
+       <div class="redes">
            
             <a href=""><img id="mostrarf"  src="img/facebook.png" alt="No estoy"></a>
             <a href=""><img id="mostrart" src="img/twitter.png" alt="Ando de viaje"></a>
             <a href=""><img id="mostrari" src="img/instagram.png" alt="Estoy de vacaciones"></a>
            
-       </footer>
+       </div>
        
+       <div class="pasos">
+          
+            <div id="paso">
+             
+                <b>
+                    <ul> 
+                       <li>PASO1 -> Ingresa tu nombre de usuario</li>
+                       <li>PASO2 -> Ingresa tu contrseña, procura que sea una que puedas recordar.</li>
+                       <li>PASO3 -> Reingresa la contraseña para confirmarla</li>
+                       <li>PASO4 -> Elige tu pregunta secreta, sera utilizada incluso para recuperar la contraseña</li>
+                       <li>PASO5 -> Responde la pregunta que has elegido</li>
+                       <li>PASO6 -> Clik en Registrar</li>
+                       <li>!No te preocues estos datos solo los sabras tu, todo esta cifrado¡</li>
+                    </ul>
+                </b>
+                
+            </div>
+         
+        </div>
+        <div class="pasos">
+          
+            <div id="pasop">
+             
+                <b>
+                    
+                    <ul>
+                       <li>P1-> Ingresa usuario</li>
+                       <li>P2-> Ingresa tu contrseña</li>
+                       <li>P3-> Confirma la contraseña</li>
+                       <li>P4-> Elige tu pregunta secreta</li>
+                       <li>P5-> Responde la pregunta</li>
+                       <li>P6-> Clik en Registrar</li>
+                       <br>
+                       <li>!Todo esta cifrado¡</li>
+                       
+                    </ul>
+                    
+                </b>
+                
+            </div>
+           
+           
+           
+        </div>
         
 </section>
 </body>
 <head>
-    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="js/js.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 </head>
 </html>
