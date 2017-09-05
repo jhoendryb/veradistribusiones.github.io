@@ -247,6 +247,17 @@ body,html{
     }
 }
 
+@media only screen and (max-width:1280px) AND (max-height:800px)
+{
+    .contenedor{
+        
+        overflow: auto;
+    }
+    .organizar{
+        height: 120%;
+    }
+}
+
 @media only screen and (max-width:1250px) 
 {
     .contenedor{
