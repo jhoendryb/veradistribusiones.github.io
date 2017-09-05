@@ -84,12 +84,14 @@ body,html{
 
 #sesion {
     background: yellow;
-    height: 35%;
-    width: 25%;
+    height: 36%;
+    width: 24%;
     float: right;
-    margin: 1% 2% 0% 0%;
+    margin: 1% 3% 0% 0%;
     border: solid;
-    overflow: hidden;
+    overflow: auto;
+    display: flex;
+    align-items: center;
 }
 
 #sesion2{
@@ -256,15 +258,7 @@ body,html{
     .organizar{
         height: 150%;
     }
-    #sesion img{
-        display: none;
-    }
-    
-    #sesion{
-        display: flex;
-        align-items: center;
 
-    }
 }
 
 @media only screen and (max-width:1250px) 
@@ -307,10 +301,6 @@ body,html{
         display: block;
         margin: 0% 0.6% 0% 0%;
         overflow: auto;
-    }
-    
-    #sesion2 img{
-        display: none;
     }
     
     #carrusel{
