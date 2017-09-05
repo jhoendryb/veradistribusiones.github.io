@@ -256,6 +256,15 @@ body,html{
     .organizar{
         height: 150%;
     }
+    #sesion img{
+        display: none;
+    }
+    
+    #sesion{
+        display: flex;
+        align-items: center;
+
+    }
 }
 
 @media only screen and (max-width:1250px) 
